@@ -8,7 +8,7 @@ using namespace std;
 int sizeGameBoard = 9;
 string nextPlayer;
 bool winner = false;
-// 2d array of char with 3 columns and 3 rows.
+
 char arrVertically[3][3];
 
 
@@ -18,11 +18,7 @@ int columns = 3;
 bool gameRunning = false;
 char input;
 
-//class Board {
 
-// ide å lage en board classe å lage et nytt objekt for hver gang board oppdateres. Nytt objekt av "Board" klasse med oppdaterte tall.
-
-//}
 
 void arrayInit() {
 
@@ -289,10 +285,7 @@ int main()
 
 		}
 
-		// lag enkel AI
-		// fiks randomChar
-		//se eksmepåel i programmin c++ bok.
-
+		
 
 	}
 	
